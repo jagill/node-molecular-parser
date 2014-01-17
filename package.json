@@ -1,0 +1,28 @@
+{
+  "name": "molecular-parser",
+  "version": "0.0.1",
+  "description": "A Package to parse molecular formulae, like C(CH3)4",
+  "main": "src/molecularParser.js",
+  "directories": {
+    "test": "test/"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "homepage": "https://github.com/jagill/node-molecular-parser",
+  "repository": 
+   { "type": "git",
+     "url": "https://github.com/jagill/node-molecular-parser.git" },
+  "keywords": [
+    "molecule",
+    "molecular",
+    "formula",
+    "parser"
+  ],
+  "author": "James Gill (https://github.com/jagill)",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "mocha": "~1.17.0"
+  }
+}
